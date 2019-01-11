@@ -11,8 +11,8 @@
         
         return crc;
     }
-        
-	int main() {
-		unsigned char plainTextData[] = "20101021202164403849800004306041552202409800";
-		printf("%X", crcCalculator(plainTextData, sizeof(plainTextData)-1));
-	}
+    /* MAIN METHOD FOR TESTING PURPOSE */    
+    int main() {
+	unsigned char plainTextData[] = "20101021202164403849800004306041552202409800";
+	printf("%X", crcCalculator(plainTextData, sizeof(plainTextData)-1));
+    }
